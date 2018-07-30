@@ -1,0 +1,11 @@
+/nbproject
+/.idea
+*.iml
+/dev/*
+js/plugins/*
+js/demo/*
+css/plugins/*
+img/gallery/*
+img/flags/*
+composer.json
+composer.lock
