@@ -5,6 +5,8 @@
  *
  */
 
+
+
 $(document).ready(function () {
 
 
@@ -31,7 +33,7 @@ $(document).ready(function () {
             ibox.find('[id^=map-]').resize();
         }, 50);
     });
-
+        
     // Close ibox function
     $('.close-link').on('click', function () {
         var content = $(this).closest('div.ibox');
