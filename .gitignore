@@ -9,3 +9,4 @@ img/gallery/*
 img/flags/*
 composer.json
 composer.lock
+node_modules
