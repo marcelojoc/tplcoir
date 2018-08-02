@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>INSPINIA | Empty Page</title>
+    <title>Coir | Aceso</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -30,12 +30,11 @@
                             <img alt="image" class="img-circle" src="img/profile_small.jpg" />
                              </span>
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">David Williams</strong>
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Usuario</strong>
                              </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span> </span> </a>
                         <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                            <li><a href="profile.html">Profile</a></li>
-                            <li><a href="contacts.html">Contacts</a></li>
-                            <li><a href="mailbox.html">Mailbox</a></li>
+                            <li><a href="profile.html">Perfil</a></li>
+                            <li><a href="contacts.html">Contacto</a></li>
                             <li class="divider"></li>
                             <li><a href="login.html">Logout</a></li>
                         </ul>
@@ -65,17 +64,9 @@
 
 
                 <li>
-                    <a href="grid_options.html"><i class="fa fa-laptop"></i> <span class="nav-label">Grid options</span></a>
+                    <a href="#"><i class="fa fa-laptop"></i> <span class="nav-label">Usuarios</span></a>
                 </li>
-                <li>
-                    <a href="#"><i class="fa fa-table"></i> <span class="nav-label">Tables</span><span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level collapse">
-                        <li><a href="table_basic.html">Static Tables</a></li>
-                        <li><a href="table_data_tables.html">Data Tables</a></li>
-                        <li><a href="table_foo_table.html">Foo Tables</a></li>
-                        <li><a href="jq_grid.html">jqGrid</a></li>
-                    </ul>
-                </li>
+
 
 
             </ul>
@@ -96,7 +87,7 @@
         </div>
             <ul class="nav navbar-top-links navbar-right">
                 <li>
-                    <span class="m-r-sm text-muted welcome-message">Bienvenio U.</span>
+                    <span class="m-r-sm text-muted welcome-message">Bienvenio Usuario.</span>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
@@ -209,10 +200,10 @@
                     <h2>Formulario Ingreso</h2>
                     <ol class="breadcrumb">
                         <li>
-                            <a href="">This is</a>
+                            <a href="">Fichas</a>
                         </li>
                         <li class="active">
-                            <strong>Breadcrumb</strong>
+                            <strong>Paciente</strong>
                         </li>
                     </ol>
                 </div>
@@ -233,7 +224,7 @@
 
                         <div class="form-group"><label class="col-sm-3 control-label">Fecha</label>
 
-                            <div class="col-sm-8"><input type="text" class="form-control"></div>
+                            <div class="col-sm-8"><input type="date" class="form-control"></div>
                         </div>
                         <div class="hr-line-dashed"></div>
 
@@ -251,10 +242,10 @@
                         
                         <div class="form-group"><label class="col-sm-3 control-label">Edad:</label>
 
-                            <div class="col-sm-3"><input type="text" class="form-control"></div>
+                            <div class="col-sm-3"><input type="number" class="form-control"></div>
                         </div>                        
                         
-                        <div class="form-group"><label class="col-sm-3 control-label">Sexo Biológico:</label>
+                        <div class="form-group"><label class="col-sm-3 control-label">Fecha de nacimiento:</label>
 
                             <div class="col-sm-8"><input type="text" class="form-control"></div>
                         </div> 
@@ -272,16 +263,68 @@
 
                             <div class="col-sm-8"><input type="text" class="form-control"></div>
                         </div>
+
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+
+                            <div class="col-xs-12 text-left"><h3>Dirección</h3></div>
+                        </div>
                         
-                        <div class="form-group"><label class="col-sm-3 control-label">Dirección:</label>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">Provincia:</label>
 
-                            <div class="col-sm-8"><input type="text" class="form-control"></div>
+                            <div class="col-sm-4"><input type="text" class="form-control"></div>
+
+                            <label class="col-sm-2 control-label">Localidad:</label>
+
+                            <div class="col-sm-4"><input type="text" class="form-control"></div>
+
                         </div>
+                        <div class="form-group">
+                                <label class="col-sm-2 control-label">Calle:</label>
+    
+                                <div class="col-sm-4"><input type="text" class="form-control"></div>
+    
+                                <label class="col-sm-2 control-label">Numero:</label>
+    
+                                <div class="col-sm-4"><input type="text" class="form-control"></div>
+    
+                        </div>    
+                        
+                        <div class="form-group">
+                                <label class="col-sm-2 control-label">Piso:</label>
+    
+                                <div class="col-sm-1"><input type="text" class="form-control"></div>
+    
+                                <label class="col-sm-2 control-label">Dep:</label>
+    
+                                <div class="col-sm-1"><input type="text" class="form-control"></div>
 
-                        <div class="form-group"><label class="col-sm-3 control-label">Nacionalidad:</label>
+                                <label class="col-sm-2 control-label">Barrio:</label>
+    
+                                <div class="col-sm-3"><input type="text" class="form-control"></div>
 
-                            <div class="col-sm-8"><input type="text" class="form-control"></div>
-                        </div>
+    
+                        </div>                        
+
+
+                        <div class="form-group">
+                                <label class="col-sm-2 control-label">Manzana:</label>
+    
+                                <div class="col-sm-1"><input type="text" class="form-control"></div>
+    
+                                <label class="col-sm-2 control-label">Casa:</label>
+    
+                                <div class="col-sm-1"><input type="text" class="form-control"></div>
+
+                                <label class="col-sm-2 control-label">Código Postal:</label>
+    
+                                <div class="col-sm-3"><input type="text" class="form-control"></div>
+
+    
+                        </div>  
+                        <div class="hr-line-dashed"></div>
 
 
                         <div class="form-group"><label class="col-sm-3 control-label">Teléfono Fijo:</label>
@@ -317,7 +360,16 @@
                             
                         <div class="col-sm-6">
                             <select class="form-control m-b" name="account">
+                                <option>Primario Incompleto</option>
                                 <option>Primario Completo</option>
+                                <option>Secundario Incompleto</option>
+                                <option>Secundario Completo</option>
+                                <option>Terciario Completo</option>
+                                <option>Terciario Incompleto</option>
+                                <option>Universitario Incompleto</option>
+                                <option>Universitario Completo</option>
+                                <option>Otro</option>
+
 
                             </select>
 
@@ -353,50 +405,86 @@
                         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        
                         <div class="hr-line-dashed"></div>
-                        <div class="form-group"><label class="col-sm-2 control-label">Help text</label>
-                            <div class="col-sm-8"><input type="text" class="form-control"> <span class="help-block m-b-none">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+
+                        <div class="form-group">
+
+                            <div class="col-xs-12 text-left"><h3>Acompañante</h3></div>
+                        </div>
+                        
+                        <div class="form-group"><label class="col-sm-3 control-label">Relación con el Paciente:</label>
+
+                            
+                            <div class="col-sm-6"><select class="form-control m-b" name="account">
+                                <option>Conyugue</option>
+                                <option>Padre/Madre</option>
+                                <option>Suegro/a</option>
+                                <option>Concubino/a</option>
+                                <option>separado</option>
+                                <option>Nieto/a</option>
+                                <option>Tenencia Definitiva</option>
+                                <option>Yerno</option>
+                                <option>Nuera</option>
+                                <option>Tenencia Provisoria</option>
+                                <option>Hermano/a</option>
+                                <option>Ex Conyugue</option>
+                                <option>Sobrino/a</option>
+                                <option>Bisnietos</option>
+                                <option>Cuñado/a</option>
+                                <option>Otro</option>
+                            </select>
+
+
                             </div>
                         </div>
-                        <div class="hr-line-dashed"></div>
-                        <div class="form-group"><label class="col-sm-2 control-label">Password</label>
 
-                            <div class="col-sm-10"><input type="password" class="form-control" name="password"></div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
-                        <div class="form-group"><label class="col-sm-2 control-label">Placeholder</label>
+                        <div class="form-group"><label class="col-sm-3 control-label">Nombre:</label>
 
-                            <div class="col-sm-10"><input type="text" placeholder="placeholder" class="form-control"></div>
+                            <div class="col-sm-8"><input type="text" class="form-control"></div>
                         </div>
-                        <div class="hr-line-dashed"></div>
-                        <div class="form-group"><label class="col-lg-2 control-label">Disabled</label>
 
-                            <div class="col-lg-10"><input type="text" disabled="" placeholder="Disabled input here..." class="form-control"></div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
-                        <div class="form-group"><label class="col-lg-2 control-label">Static control</label>
+                        <div class="form-group"><label class="col-sm-3 control-label">Teléfono:</label>
 
-                            <div class="col-lg-10"><p class="form-control-static">email@example.com</p></div>
+                            <div class="col-sm-8"><input type="text" class="form-control"></div>
                         </div>
+
+
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+
+                            <div class="col-xs-12 text-left"><h3>Medico derivador o Institución:</h3></div>
+                        </div>
+
+
+
+                        <div class="form-group"><label class="col-sm-3 control-label">Institución:</label>
+
+                            <div class="col-sm-8"><input type="text" class="form-control"></div>
+                        </div>
+
+                        <div class="form-group"><label class="col-sm-3 control-label">DR:</label>
+
+                            <div class="col-sm-8"><input type="text" class="form-control"></div>
+                        </div>
+
+                        
+                        <div class="form-group"><label class="col-sm-3 control-label">Teléfono:</label>
+
+                            <div class="col-sm-8"><input type="text" class="form-control"></div>
+                        </div>
+
+
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <div class="col-sm-12 text-center">
+                                <button class="btn btn-white" type="submit">Cancelar</button>
+                                <button class="btn btn-primary" type="submit">Guardar Paciente</button>
+                            </div>
+                        </div>
+
+
                     </form>
 
 
@@ -406,7 +494,7 @@
             <div class="footer">
 
                 <div>
-                    <strong>Copyright</strong> Example  &copy; 2014-2017
+                    <strong>Copyright</strong>   &copy; 2018
                 </div>
             </div>
 

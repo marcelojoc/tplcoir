@@ -2,11 +2,12 @@
 /.idea
 *.iml
 /dev/*
-js/plugins/*
-js/demo/*
-css/plugins/*
-img/gallery/*
-img/flags/*
+public/js/plugins/*
+public/js/demo/*
+public/css/plugins/*
+public/img/gallery/*
+
+public/img/flags/*
 composer.json
 composer.lock
 node_modules
