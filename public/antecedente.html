@@ -76,7 +76,7 @@
             <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
             <form role="search" class="navbar-form-custom" action="">
                 <div class="form-group">
-                    <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
+                    <input type="text" placeholder="buscar" class="form-control" name="top-search" id="top-search">
                 </div>
             </form>
         </div>
@@ -191,14 +191,17 @@
         </nav>
         </div>
             <div class="row wrapper border-bottom white-bg page-heading">
-                <div class="col-sm-4">
-                    <h2>Formulario Ingreso</h2>
+                <div class="col-sm-6">
+                    <h2>Informe Antecedentes</h2>
                     <ol class="breadcrumb">
                         <li>
-                            <a href="">Fichas</a>
+                            <a href="empty_page.html">Fichas</a>
+                        </li>
+                        <li class="">
+                                <a href="paciente.html">Fichas</a>
                         </li>
                         <li class="active">
-                            <strong>Paciente</strong>
+                                <strong>Antecedentes</strong>
                         </li>
                     </ol>
                 </div>
@@ -211,23 +214,194 @@
 
 
                 <div class="ibox-content">
-                    <form method="post" class="form-horizontal" action="antecedente.html">
-                        <div class="form-group"><label class="col-sm-3 col-xs-12 control-label">Historia Clínica Personal Nº:</label>
+                    <form method="get" class="form-horizontal">
 
-                            <div class="col-sm-5 col-xs-12"><input type="text" class="form-control" disabled=""></div>
+
+                    <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+
+                            <div class="col-xs-12 text-left"><h3>Antecedentes Familiares</h3></div>
                         </div>
 
-                        <div class="form-group"><label class="col-sm-3 control-label">Fecha</label>
+                        <div class="form-group"><label class="col-sm-3 control-label">Diabetes:</label>
 
-                            <div class="col-sm-8"><input type="date" class="form-control"></div>
+                            
+                            <div class="col-sm-3">
+                                <select class="form-control m-b" name="account">
+                                    <option >SI</option>
+                                    <option>NO</option>
+                                    <option selected >NO REFIERE</option>
+                                </select>
+
+                            </div>
+
+                            <label class="col-sm-2 control-label">Parentesco?</label>
+
+                            <div class="col-sm-3">
+                                    <select class="form-control m-b" name="account">
+                                        <option>Abuelo</option>
+                                        <option>Abuela</option>
+                                        <option>Padre</option>
+                                        <option>Madre</option>
+                                        <option>Hermanos</option>
+                                        <option>Hijos</option>                                      
+                                        
+                                    </select>
+    
+                            </div>
+                        </div>
+
+
+                   
+
+
+                        <div class="form-group"><label class="col-sm-3 control-label">Enfermedades Cardiacas </label>
+
+                            
+                            <div class="col-sm-3">
+                                <select class="form-control m-b" name="account">
+                                    <option >SI</option>
+                                    <option>NO</option>
+                                    <option selected >NO REFIERE</option>
+                                </select>
+
+                            </div>
+
+                            <label class="col-sm-2 control-label">Parentesco?</label>
+
+                            <div class="col-sm-3">
+                                    <select class="form-control m-b" name="account">
+                                        <option>Abuelo</option>
+                                        <option>Abuela</option>
+                                        <option>Padre</option>
+                                        <option>Madre</option>
+                                        <option>Hermanos</option>
+                                        <option>Hijos</option>                                      
+                                        
+                                    </select>
+    
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="form-group"><label class="col-sm-3 control-label">Enfermedades Tumorales:</label>
+
+                            
+                            <div class="col-sm-3">
+                                <select class="form-control m-b" name="account">
+                                    <option >SI</option>
+                                    <option>NO</option>
+                                    <option selected >NO REFIERE</option>
+                                </select>
+
+                            </div>
+
+                            <label class="col-sm-2 control-label">Parentesco?</label>
+
+                            <div class="col-sm-3">
+                                    <select class="form-control m-b" name="account">
+                                        <option>Abuelo</option>
+                                        <option>Abuela</option>
+                                        <option>Padre</option>
+                                        <option>Madre</option>
+                                        <option>Hermanos</option>
+                                        <option>Hijos</option>                                      
+                                        
+                                    </select>
+    
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        
+                        
+
+                        <div class="form-group">
+
+                                <div class="col-xs-12 text-left"><h3>Hábitos:</h3></div>
                         </div>
                         <div class="hr-line-dashed"></div>
 
                         <div class="form-group">
 
-                            <div class="col-xs-12 text-left"><h3>Datos personales</h3></div>
+                                <div class="col-xs-12 text-left"><h4>Tabaco:</h4></div>
                         </div>
+
+
+
+                        <div class="form-group"><label class="col-sm-3 control-label">Fumo alguna vez:</label>
+
+                            
+                            <div class="col-sm-3">
+                                <select class="form-control m-b" name="account">
+                                    <option >SI</option>
+                                    <option>NO</option>
+                                    <option selected >NO REFIERE</option>
+                                </select>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Cantidad de cigarrillos al día:</label>
+
+                            <div class="col-sm-3"><input type="number" class="form-control"></div>
+
+
+                        </div>  
+
+                        <div class="form-group">
+                                <label class="col-sm-3 control-label">Desde (edad):</label>
+    
+                                <div class="col-sm-2"><input type="number" class="form-control"></div>
+
+                                <label class="col-sm-3 control-label">Hasta (edad):</label>
+    
+                                <div class="col-sm-2"><input type="number" class="form-control"></div>   
+    
+                        </div>  
+
+                        <div class="form-group"><label class="col-sm-3 control-label">Fuma Actualmente:</label>
+
+                            
+                            <div class="col-sm-3">
+                                <select class="form-control m-b" name="account">
+                                    <option >SI</option>
+                                    <option>NO</option>
+                                    <option selected >NO REFIERE</option>
+                                </select>
+
+                            </div>
+                            <label class="col-sm-3 control-label">Cant- cigarrillos al día: </label>
+    
+                            <div class="col-sm-2"><input type="number" class="form-control"></div>  
+
+                        </div>
+
+
+
+                        <div class="hr-line-dashed"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
                         
+
                         
                         <div class="form-group"><label class="col-sm-3 control-label">Nombre y Apellido:</label>
 
